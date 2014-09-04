@@ -1,3 +1,8 @@
+---
+layout: post
+title: Testing markdown
+---
+
 {% highlight ruby %}
 def show
   @widget = Widget(params[:id])
