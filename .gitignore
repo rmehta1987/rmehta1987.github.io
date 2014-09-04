@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Gemfile.lock
 test/dest
 *.gem
@@ -13,3 +14,14 @@ site/_site/
 coverage
 .ruby-version
 .sass-cache
+=======
+_site
+.DS_Store
+.jekyll
+.bundle
+.sass-cache
+Gemfile
+Gemfile.lock
+node_modules
+package.json
+>>>>>>> 5dc43301e9531ef4860d4b5d22efcfa94955e1b4
