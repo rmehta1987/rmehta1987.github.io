@@ -9,7 +9,6 @@ title:               Rahul Mehta
 tagline:             'Musings of a Bioengineering PhD Student'
 description:         'A blog that keeps notes and ideas through the last half of my PhD.'
 url:                 http://rmehta1987.github.io
-baseurl:             ''
 paginate:            5
 
 # About/contact
