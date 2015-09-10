@@ -9,8 +9,6 @@ title: About
 
 
 
-There are currently two themes built on Poole:
-
 <!--
 ## Example of how to do links: 
 ##* [Hyde](http://hyde.getpoole.com)
@@ -18,6 +16,5 @@ There are currently two themes built on Poole:
 -->
 
 
-## Setup
 
 
