@@ -4,6 +4,10 @@
 permalink:           pretty
 #relative_permalinks: true
 
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
 # Setup
 title:               Rahul Mehta
 tagline:             'Musings of a Bioengineering PhD Student'
