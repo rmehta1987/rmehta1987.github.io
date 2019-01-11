@@ -18,5 +18,8 @@ As bonus, the determinant is also much easier to compute.
 
 det(\mathbf{A}) = det(\mathbf{L})^2 
 
+$$a^2 + b^2 = c^2$$
+
+
 One can also use complex matrices, and just use a conjugate-transpose instead of transpose alone.
 
