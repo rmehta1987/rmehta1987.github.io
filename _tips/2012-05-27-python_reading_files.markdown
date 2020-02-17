@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tips
 title: Python Reading File Notes
 
 ---
