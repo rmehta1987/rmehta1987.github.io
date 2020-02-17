@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tips
 title: Numpy Matrix Maniupations
 description: Cropping and Padding a Matrx in Numpy
 ---
