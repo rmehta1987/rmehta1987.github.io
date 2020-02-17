@@ -9,10 +9,9 @@ title: Python and Matlab Tips
  <ul class="related-posts">
     <li>
         <h3>
-          <span class="post-date">{{ tips.description | truncate: 160 }}</span>
+          <small>{{ tips.description | truncate: 160 }}</small>
            <small>{{ tips.date | date_to_string }}</small>
-          </a>
-        </h3>
+          </h3>
       </li>
   </ul>
 {% endfor %}
