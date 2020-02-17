@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Numpy Matrix Maniupations
-
+description: Cropping and Padding a Matrx in Numpy
 ---
 
 Numpy indexing is different than MATLAB and R, and slightly not as intuitive.  This is just a few things to note down
