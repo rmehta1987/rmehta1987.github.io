@@ -11,7 +11,7 @@ highlighter:      rouge
 # Setup
 title:               Rahul Mehta
 tagline:             'Notes of a Bioengineering PhD Student'
-description:         'A blog that keeps notes and ideas through the last half of my PhD.'
+description:         'A blog that keeps notes and ideas during my PhD.'
 url:                 'http://rmehta1987.github.io'
 baseurl:            'http://rmehta1987.github.io'
 paginate:            5
@@ -19,6 +19,16 @@ paginate:            5
 # About/contact
 author:
   name:              Rahul Mehta
-  url:               https://www.linkedin.com/in/rmehta1987
+ 
 
+collections:
+  tips:
+    output: true
+    layout: page
+    show_sidebar: true
+
+# Social
+social:
+  github: http://github.com/rmehta1987
+  linkedin: https://www.linkedin.com/in/rmehta1987/
 
