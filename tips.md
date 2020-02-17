@@ -5,7 +5,7 @@ title: Python and Matlab Tips
 
 {% for tips in site.tips %}
 
-<a href="{{ tips.url | prepend: site.baseurl }}"><h2>{{ tips.title }}</h2></a>
-<p class="post-excerpt">{{ tips.description | truncate: 160 }}</p>
-
+<h2><a href="{{ tips.url | prepend: site.baseurl }}">{{ tips.title }}</a></h2>
+<span class="post-excerpt">{{ tips.description | truncate: 160 }}</span>
+<span class="post-date">{{ page.date | date_to_string }}</span>
 {% endfor %}
