@@ -4,6 +4,27 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
+  
+  <div id="contact-list" style="text-align:center">
+    {% if site.share-links-active.github %}
+      <a href="{{ site.social-network-links.github }}">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-github-alt fa-stack-1x"></i>
+        </span>
+      </a>
+    {% endif %}
+
+    {% if site.share-links-active.linkedin %}
+      <a href="{{ site.social-network-links.linkedin }}">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-linkedin fa-stack-1x"></i>
+        </span>
+      </a>
+    {% endif %}
+  </div>
+  
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
