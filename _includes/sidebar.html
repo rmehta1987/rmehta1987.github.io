@@ -5,6 +5,10 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   
+  <div class="sidebar-logo">
+    <img src="/assets/rahul-chloe_small.jpg">
+  </div>
+  
   <div id="contact-list" style="text-align:center">
     {% if site.share-links-active.github %}
       <a href="{{ site.social-network-links.github }}">
@@ -20,6 +24,17 @@
         <span class="fa-stack fa-lg">
           <i class="fa fa-square-o fa-stack-2x"></i>
           <i class="fa fa-linkedin fa-stack-1x"></i>
+        </span>
+      </a>
+    {% endif %}
+  </div>
+  
+  <div id="contact-list" style="text-align:center">
+    {% if site.author.email %}
+      <a href="mailto:{{ site.author.email }}">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-envelope fa-stack-1x"></i>
         </span>
       </a>
     {% endif %}
