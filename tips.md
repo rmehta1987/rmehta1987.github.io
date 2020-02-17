@@ -10,8 +10,7 @@ title: Python and Matlab Tips
     <li>
         <h3>
           <small>{{ tips.description | truncate: 160 }}</small>
-           <small>{{ tips.date | date_to_string }}</small>
-          </h3>
+         </h3>
       </li>
   </ul>
 {% endfor %}
