@@ -28,7 +28,9 @@ collections:
     show_sidebar: true
 
 # Social
-social:
+social-network-links:
   github: http://github.com/rmehta1987
   linkedin: https://www.linkedin.com/in/rmehta1987/
-
+share-links-active:
+  linkedin: true
+  github: true
