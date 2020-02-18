@@ -19,7 +19,7 @@ paginate:            5
 # About/contact
 author:
   name:              Rahul Mehta
- 
+  email:             mehta5[at]uic[dot]edu
 
 collections:
   tips:
