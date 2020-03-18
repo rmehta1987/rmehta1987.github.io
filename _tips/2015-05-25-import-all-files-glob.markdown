@@ -1,3 +1,8 @@
+---
+layout: tips
+title: Python Import folder names
+
+---
 
 To import only folder names in the sub-directory use * after the path to the directory
 
