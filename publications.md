@@ -3,6 +3,7 @@ layout: page
 title: Publications
 ---
 
+ testing
 
 {% for post in site.publications %}
 
