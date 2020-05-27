@@ -26,6 +26,10 @@ collections:
     output: true
     layout: page
     show_sidebar: true
+  publications:
+    output: true
+    layout: page
+    show_sidebar: true
 
 # Social
 social-network-links:
