@@ -9,7 +9,7 @@ title: Publications
 
 <li>
 <h2><a href="{{ post.ref-url}}">{{ post.ref-title }}</a></h2>
-  <a href="{% if post.ref-code %}{{ post.ref-code }}">[code]</a>
+  
 <\li>
 
 {% endfor %}
