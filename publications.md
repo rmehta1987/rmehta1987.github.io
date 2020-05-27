@@ -7,13 +7,10 @@ title: Publications
 
 {% for post in site.publications %}
 
- <h2>{{post.ref-title}}</h2>
-  <h2>{{post.title}}</h2>
- <h2>testing</h2>
+<li>
+<h2><a href="{{ post.ref-url}}">{{ post.ref-title }}</a></h2>
+  <a href="{% if post.ref-code %}{{ post.ref-code }}">[code]</a>
+<\li>
 
 {% endfor %}
 
-{% for tips in site.tips %}
-<h2><a href="{{ tips.url}}">{{ tips.title }}</a></h2>
-
-{% endfor %}
