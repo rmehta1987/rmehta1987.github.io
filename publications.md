@@ -1,9 +1,6 @@
 ---
-layout: page
+layout: publications
 title: Publications
 ---
 
-{% for post in site.publications %}
-              
 
-{% endfor %}
