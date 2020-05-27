@@ -7,9 +7,9 @@ title: Publications
 
 {% for post in site.publications %}
 
- {{post.ref-title}}
- {{post.title}}
- testing
+ <h2>{{post.ref-title}}</h2>
+  <h2>{{post.title}}</h2>
+ <h2>testing</h2>
 
 {% endfor %}
 
