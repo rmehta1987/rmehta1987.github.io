@@ -1,1 +1,1 @@
-This is the personal blog of Rahul Mehta.
+Website for academia and statements for myself.
