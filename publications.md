@@ -7,10 +7,10 @@ title: Publications
 {% for post in sorted %}
 
 
-<a href="{{ post.ref-url}}">{{ post.ref-title }}</a>  {% if post.ref-code != null %} <a href="{{post.ref-code}}">[Code]</a>  {% endif %}\
+<a href="{{ post.ref-url}}">{{ post.ref-title }}</a>  {% if post.ref-code != null %} <a href="{{post.ref-code}}">[Code]</a>  {% endif %} <br />
 {%- for author in post.ref-authors -%}
 {%- if author contains "Mehta" -%}<b>{{author}}</b>{%- else -%}{{author}}{% endif %},&nbsp;
-{%- endfor -%}\
+{%- endfor -%} <br />
 {{post.ref-journal}}  
 {%- endfor -%}
 
