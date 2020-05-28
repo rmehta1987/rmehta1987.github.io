@@ -9,7 +9,7 @@ title: Publications
 
 {{ forloop.index }}. <a href="{{ post.ref-url}}">{{ post.ref-title }}</a>  {% if post.ref-code != null %} <a href="{{post.ref-code}}">Code</a>  {% endif %}
 {% for author in post.ref-authors %}
-{% if author contains "Rahul" %}**{{author}}**{% else %}{{author}}{% endif %}
+{% if author contains "Rahul" %}<b>{{author}}</b>{% else %}{{author}}{% endif %}
 {% endfor %}
 {{post.ref-journal}}
 
