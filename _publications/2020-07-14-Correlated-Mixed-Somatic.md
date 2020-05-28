@@ -1,7 +1,7 @@
 ---
 title: Correlated Mixed Membership Modeling of Somatic Mutation Profiles
 layout: post
-ref-authors: **Mehta R**, Karama M
+ref-authors: [Mehta R,  Karaman M]
 ref-year: 2020
 ref-title: Correlated Mixed Membership Modeling of Somatic Mutation Profiles
 ref-journal: In the International Joint Conference on Neural Networks (IJCNN 2020)
