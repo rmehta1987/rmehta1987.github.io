@@ -8,8 +8,8 @@ title: Publications
 
 
 <a href="{{ post.ref-url}}">{{ post.ref-title }}</a>  {% if post.ref-code != null %} <a href="{{post.ref-code}}">[Code]</a>  {% endif %}
-{% for author in post.ref-authors %}
-{% if author contains "Mehta" %}<b>{{author}}</b>{% else %}{{author}}{% endif %}
+{%- for author in post.ref-authors -%}
+{%- if author contains "Mehta" -%}<b>{{author}}</b>{%- else -%}{{author}}{% endif %}
 {% endfor %}
 {{post.ref-journal}}
 
