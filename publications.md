@@ -3,15 +3,17 @@ layout: page
 title: Publications
 ---
 
+{% assign sorted = (site.publications | sort: 'date') | reverse %}
+{% for post in sorted %}
 
-{% for post in site.publications %}
 
-<li>
-<h2><a href="{{ post.ref-url}}">{{ post.ref-title }}</a></h2>
- {% if post.ref-code != null %} 
-    <a href="{{post.ref-code}}">Code</a>
-  {% endif %}
-</li>
+{{ forloop.index }}. <a href="{{ post.ref-url}}">{{ post.ref-title }}</a>  {% if post.ref-code != null %} <a href="{{post.ref-code}}">Code</a>  {% endif %}
+{{post.ref-authors}}
+{{post.ref-journal}}
+
+    
+
+
 
 {% endfor %}
 
