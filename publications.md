@@ -14,4 +14,3 @@ title: Publications
 {{post.ref-journal}}  
 {%- endfor -%}
 
-testing
