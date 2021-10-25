@@ -36,7 +36,9 @@ url='https://www.dundeecity.gov.uk/sites/default/files/publications/civic_renewa
 dir=os.path.abspath('.')  
 work_path=os.path.join(dir,'civic_renewal_forms.zip')  
 urllib.urlretrieve(url,work_path,download_hook)
-```
+```  
+
+A TQDM Version: https://gist.github.com/leimao/37ff6e990b3226c2c9670a2cd1e4a6f5
 
 References:  
 https://programmer.ink/think/how-to-use-urlretrieve-in-python-3.html  
