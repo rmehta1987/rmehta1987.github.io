@@ -35,7 +35,8 @@ def download_hook(block_num, block_size, total_size):
 url='https://www.dundeecity.gov.uk/sites/default/files/publications/civic_renewal_forms.zip'  
 dir=os.path.abspath('.')  
 work_path=os.path.join(dir,'civic_renewal_forms.zip')  
-urllib.urlretrieve(url,work_path,download_hook)  
+urllib.urlretrieve(url,work_path,download_hook)
+'''
 
 References: 
 https://programmer.ink/think/how-to-use-urlretrieve-in-python-3.html
