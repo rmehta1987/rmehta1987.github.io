@@ -2,8 +2,8 @@
 layout: default
 title: Programming Thoughts
 ---
-
-{% for tips in site.tips %}
+{% assign tips_sorted = site.tips | sort: 'date' %}
+{% for tips in tips_sorted %}
 <h2><a href="{{ tips.url | prepend: site.baseurl }}">{{ tips.title }}</a></h2>
 
  <ul class="related-posts">
