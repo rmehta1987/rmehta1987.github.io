@@ -10,8 +10,8 @@ highlighter:      rouge
 
 # Setup
 title:               Rahul Mehta
-tagline:             'Notes of a Bioengineering PhD Student'
-description:         'A blog that keeps notes and ideas during my PhD.'
+tagline:             'Notes from and after a Bioengineering PhD'
+description:         'A blog that keeps notes and ideas during and after my PhD.'
 url:                 'http://rmehta1987.github.io'
 baseurl:            'http://rmehta1987.github.io'
 paginate:            5
