@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Python and Matlab Tips
+title: Programming Thoughts
 ---
 
 {% for tips in site.tips %}
