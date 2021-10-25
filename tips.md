@@ -3,7 +3,7 @@ layout: default
 title: Programming Thoughts
 ---
 
-{% comment %}
+{% comment %}  
 *
 *  This loop loops through a collection called `collection_name`
 *  and sorts it by the front matter variable `date` and than filters
@@ -14,7 +14,7 @@ title: Programming Thoughts
 *
 {% endcomment %}
 
-{% assign sorted = site.tips | sort: 'date' | reverse %}
+{% assign sorted = site.tips | sort: 'date' | reverse %}  
 {% for tips in sorted %}
 <h2><a href="{{ tips.url | prepend: site.baseurl }}">{{ tips.title }}</a></h2>
 
