@@ -34,12 +34,10 @@ sections:
     content:
       title: '📚 My Research'
       subtitle: ''
-      text: As a computational biologist with a robust background in statistical genetics, medical imaging, and population genetics, I enjoy combining distinct genetic/health datasets with an aim toward early detection of cancers and providing a more biologically meaningful representation of disease phenotypes (what mutations are actually the cause of a cancer).
-    Having completed my PhD, where I focused on the modern statistical and machine learning methods to create a link between imaging and corresponding somatic mutation datasets.   I'm now delving deeper into the evolutionary forces that control the progression of cancer during my postdoctoral role at the University of Chicago and how genetic ancestry can confound precision medicine.
-    Looking forward, my goal is to apply my skills in genomic data science to the ever-growing fields of clinical genetics and medical imaging. These areas promise exciting advancements in health care and medicine, and I'm eager to contribute to these developments. Overall, I'm a biologist with programming skills and a strong drive to communicate science effectively.
+      text: As a computational biologist with a robust background in statistical genetics, medical imaging, and population genetics, I enjoy combining distinct genetic/health datasets with an aim toward early detection of cancers and providing a more biologically meaningful representation of disease phenotypes (what mutations are actually the cause of a cancer). Having completed my PhD, where I focused on the modern statistical and machine learning methods to create a link between imaging and corresponding somatic mutation datasets.   I'm now delving deeper into the evolutionary forces that control the progression of cancer during my postdoctoral role at the University of Chicago and how genetic ancestry can confound precision medicine.    Looking forward, my goal is to apply my skills in genomic data science to the ever-growing fields of clinical genetics and medical imaging. These areas promise exciting advancements in health care and medicine, and I'm eager to contribute to these developments. Overall, I'm a biologist with programming skills and a strong drive to communicate science effectively.
     design:
       columns: '1'
-  #- block: collection
+  # - block: collection
   #  id: papers
   #  content:
   #    title: Featured Publications
