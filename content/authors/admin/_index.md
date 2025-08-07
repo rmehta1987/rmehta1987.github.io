@@ -61,8 +61,7 @@ work:
     company_logo: ''
     date_start: 2023-12-01
     date_end: ''
-    summary: Created a multimodal model to infer the admixture history of recent comunities from their local ancestry tracts.
-      Responsibilities include:
+    Responsibilities include:
       - Simulation of Family Pedigrees dating back to 1600
       - Admixture History Inference from multimodal dataset of time series (admixture history) and count data (continuous local ancestry tracts)
       - Inference of Admixture History from only ancestry traits of communities that share a common genetic ancestor
@@ -72,8 +71,7 @@ work:
     company_logo: ''
     date_start: 2020-10-01
     date_end: 2023-10-01
-    summary: 
-      Responsibilities include:
+    Responsibilities include:
       - Scaling liklihood inference model to ~150 million alleles that included very rare alleles with a minior allele frequency > .0001
       - Building an end to end model for determining causal variants while also quantifying selection in traits from the UK Biobank
       
