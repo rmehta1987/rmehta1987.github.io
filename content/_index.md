@@ -34,68 +34,67 @@ sections:
     content:
       title: '📚 My Research'
       subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+      text: As a computational biologist with a robust background in statistical genetics, medical imaging, and population genetics, I enjoy combining distinct genetic/health datasets with an aim toward early detection of cancers and providing a more biologically meaningful representation of disease phenotypes (what mutations are actually the cause of a cancer).
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+Having completed my PhD, where I focused on the modern statistical and machine learning methods to create a link between imaging and corresponding somatic mutation datasets.   I'm now delving deeper into the evolutionary forces that control the progression of cancer during my postdoctoral role at the University of Chicago and how genetic ancestry can confound precision medicine.   
+
+Looking forward, my goal is to apply my skills in genomic data science to the ever-growing fields of clinical genetics and medical imaging. These areas promise exciting advancements in health care and medicine, and I'm eager to contribute to these developments. Overall, I'm a biologist with programming skills and a strong drive to communicate science effectively.
     design:
       columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+  #- block: collection
+  #  id: papers
+  #  content:
+  #    title: Featured Publications
+  #    filters:
+  #      folders:
+  #        - publication
+  #      featured_only: true
+  #  design:
+  #    view: article-grid
+  #    columns: 2
+  #- block: collection
+  #  content:
+  #    title: Recent Publications
+  #    text: ""
+  #    filters:
+  #      folders:
+  #        - publication
+  #      exclude_featured: false
+  #  design:
+  #    view: citation
+  #- block: collection
+  #  id: talks
+  #  content:
+  #    title: Recent & Upcoming Talks
+  #    filters:
+  #      folders:
+  #        - event
+  #  design:
+  #    view: article-grid
+  #    columns: 1
+  #- block: collection
+  #  id: news
+  #  content:
+  #    title: Recent News
+  #    subtitle: ''
+  #    text: ''
+  #    # Page type to display. E.g. post, talk, publication...
+  #    page_type: post
+  #    # Choose how many pages you would like to display (0 = all pages)
+  #    count: 5
       # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
+  #    filters:
+  #      author: ""
+  #      category: ""
+  #      tag: ""
+  #      exclude_featured: false
+  #      exclude_future: false
+  #      exclude_past: false
+  #      publication_type: ""
       # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+  #    offset: 0
+  #    # Page order: descending (desc) or ascending (asc) date.
+  #    order: desc
     design:
       # Choose a layout view
       view: date-title-summary
