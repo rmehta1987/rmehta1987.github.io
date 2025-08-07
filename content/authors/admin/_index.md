@@ -101,3 +101,9 @@ skills:
 
 ## About Me
 
+Welcome to my personal webpage! I am currently a Genomic Data Science Fellow at AncestryDNA.
+
+I am trained in computational biology. I completed a postdoctoral stint at the University of Chicago Department of Human Genetics. I completed my dissertation at University of Illinois at Chicago.
+
+My research interests span integrating distinct 'nomic datasets (genomics and medical imaging), scientific computing, and high-dimensional statistics. I am also deeply interested in cancer genetics, statistical genetics, precision medicine and how we can use methods in population genetics to blend theory with burgeoning datasets.  
+
