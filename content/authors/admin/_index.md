@@ -63,7 +63,7 @@ work:
     date_end: ''
     summary: Created a multimodal model to infer the admixture history of recent 1600 comunities from their local ancestry tracts.
       Responsibilities include:
-      - Simulation of Family Pedigrees dating back to 1600~
+      - Simulation of Family Pedigrees dating back to 1600
       - Admixture History Inference from multimodal dataset of time series (admixture history) and count data (continuous local ancestry tracts)
       - Inference of Admixture History from only ancestry traits of communities that share a common genetic ancestor
   - position: Postdoctoral Scholar
