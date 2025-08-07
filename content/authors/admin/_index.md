@@ -72,7 +72,7 @@ work:
     company_logo: ''
     date_start: 2020-10-01
     date_end: 2023-10-01
-    summary: | Created a simulation based inferene method to infer the evolutionary parameters that impact allele frequencies and effect sizes observed in traits in the UK Biobank.
+    summary: 
       Responsibilities include:
       - Scaling liklihood inference model to ~150 million alleles that included very rare alleles with a minior allele frequency > .0001
       - Building an end to end model for determining causal variants while also quantifying selection in traits from the UK Biobank
